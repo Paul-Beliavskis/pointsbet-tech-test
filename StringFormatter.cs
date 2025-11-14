@@ -26,7 +26,7 @@ namespace PointsBet_Backend_Online_Code_Test
 
         for (int i = 1; i < items.Length; i++)
         {
-					//Using separate append statements instead of string interpolation to avoid the slight overhead of creating a string for each item in memory
+			//Using separate append statements instead of string interpolation to avoid the slight overhead of creating a string for each item in memory
             stringBuilder
               .Append(", ")
               .Append(quote)
